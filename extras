@@ -1,0 +1,5 @@
+apt-get update
+
+apt-get install -y libcudnn8
+
+pip install --upgrade gradio
