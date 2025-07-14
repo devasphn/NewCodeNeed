@@ -1,0 +1,23 @@
+torch==2.3.0
+torchaudio==2.3.0
+
+# Speech-to-Text (STT)
+faster-whisper==1.0.2
+ctranslate2==4.3.1
+
+# Language Model (LLM)
+transformers==4.41.2
+accelerate==0.30.1
+bitsandbytes==0.43.1
+huggingface_hub==0.23.0
+
+# Text-to-Speech (TTS)
+TTS==0.22.0
+
+# Web UI
+gradio==4.29.0
+
+# Audio I/O and Utilities
+pyaudio==0.2.14
+numpy==1.22.0
+webrtcvad==2.0.10
