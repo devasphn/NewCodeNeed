@@ -1,0 +1,26 @@
+cd workspace
+git clone https://github.com/devasphn/WorkingXTTSv2//
+cd WorkingXTTSv2/
+python3 -m venv venv
+source venv/bin/activate
+
+
+# System dependencies
+apt update
+apt-get install -y libsndfile1 ffmpeg build-essential git-lfs libcudnn8 portaudio19-dev
+
+# Core dependencies
+pip install -r requirements.txt
+
+# Transformers (latest)
+pip install git+https://github.com/huggingface/transformers.git
+
+pip install --upgrade gradio
+
+pip install flash-attn
+
+  # Hugging Face login
+huggingface-cli login
+
+# Run the application
+python app.py
