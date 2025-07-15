@@ -14,10 +14,10 @@ huggingface_hub==0.23.0
 # Text-to-Speech (TTS)
 TTS==0.22.0
 
-# Web UI
-gradio==4.29.0
-
 # Audio I/O and Utilities
 pyaudio==0.2.14
 numpy==1.22.0
 webrtcvad==2.0.10
+
+# Web UI
+gradio==4.44.1
