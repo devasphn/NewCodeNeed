@@ -3,3 +3,5 @@ apt-get update
 apt-get install -y libcudnn8
 
 pip install --upgrade gradio
+
+apt-get install -y git git-lfs portaudio19-dev ffmpeg
